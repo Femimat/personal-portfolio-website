@@ -1,0 +1,121 @@
+.nav {
+    background-color: rgb(190, 49, 68);
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;  
+    color: #f0f0f0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.welcome-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    display: flex;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 25px;
+    float: left;
+    padding: 1.1rem;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 35.2px;
+}
+
+.projects-section {
+    background-color: #45567d;
+    height: 165vh;
+    color: #f0f0f0;
+    padding: 6rem 2rem;
+}
+
+.project-image {
+    height: calc(150% - 9.9rem);
+    width: 90%;
+    object-fit: cover;
+    padding-right: 100px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    line-height: 24.64px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;  
+}
+
+.btn-show-all {
+    font-size: 1rem;
+    background: rgb(48, 56, 65);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 1rem;
+    background: rgb(48, 56, 65);
+    color: rgb(240, 240, 240);
+    line-height: 50px;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 50px;
+}
+
+footer {
+    flex-direction: column;
+    text-align: center;
+    background: rgb(48, 56, 65);
+    border-top: 4px solid rgb(190, 49, 68);
+    padding: 2rem;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
+
+
+
